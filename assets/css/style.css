@@ -26,10 +26,6 @@ body {
   }
 
   header a {
-      color: #fce138;
-  }
-
-  header a {
       text-decoration: none;
       color: #fce138;
   }
@@ -68,12 +64,14 @@ body {
       float: right;
       line-height: 1.5;
       text-align: right;
-      font-size: 15px;
   }
 
   footer a {
       color: #024e76;
-      font-size: 12px;
+  }
+
+  section {
+      padding: 60px;
   }
 
   
@@ -146,30 +144,10 @@ body {
   .steps {
       text-align: center;
       background: #fce138;
-      margin-bottom: 35px;
-      padding-bottom: 35px;
   }
 
 
   /* consolidation of headings */
-  .section-title {
-      font-size: 55px;
-      color: #024e76;
-      margin-bottom: 35px;
-      margin-top: 35px;
-      padding: 0 100px 20px 100px;
-      border-bottom: 3px solid;
-      display: inline-block;
-  }
-
-  .primary-border {
-      border-color: #fce138;
-  }
-
-  .secondary-border {
-      border-color: #39a6b2;
-  }
-
   .steps div {
       margin-bottom: 80px;
   }
@@ -192,6 +170,24 @@ body {
 
   .steps span {
       font-size: 38px;
+  }
+
+  .section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    padding: 0 100px 35px 100px;
+    border-bottom: 3px solid;
+    display: inline-block;
+  }
+  
+  .primary-border {
+    border-color: #fce138;
+  }
+
+.secondary-border {
+    border-color: #39a6b2;
   }
 
   .trainers {
@@ -217,15 +213,7 @@ body {
       width: 65%;
   }
 
-  .text-left {
-      text-align: left;
-  }
-
-  .text-right {
-      text-align: right;
-  }
-
-  .trainer-bio h3 {
+    .trainer-bio h3 {
       font-size: 32px;
       margin-bottom: 8px;
   }
@@ -239,4 +227,53 @@ body {
   .trainer-bio p {
       font-size: 17px;
       line-height: 1.3;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+.text-right {
+    text-align: right;
+  }
+
+  /* Reach out style section */
+  .contact {
+      text-align: center;
+      background: #024e76;
+  }
+
+  .contact h2 {
+      color: #fce138;
+  }
+
+  .contact-info iframe {
+      width: 400px;
+      height: 400px;
+  }
+
+  .contact-info div {
+      width: 410px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+      margin: 30px 0 0 60px;
+      color: white;
+  }
+
+  .contact-info h3 {
+      color: #fce138;
+      font-size: 32px;
+  }
+
+  .contact-info p,
+  .contact-info address {
+      margin: 20px 0;
+      line-height: 1.5;
+      font-size: 20px;
+      font-style: normal;
+  }
+
+  .contact-info a {
+      color: #fce138;
   }
